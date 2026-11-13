@@ -1,7 +1,5 @@
+import Chat from './components/Chat.tsx'
+
 export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello, World!</h1>
-    </div>
-  );
+  return <Chat />
 }
