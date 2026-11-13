@@ -7,7 +7,7 @@ type SenderToggleProps = {
 
 export default function SenderToggle({ sender, onToggle }: SenderToggleProps) {
   const isRobot = sender === 'robot'
-  const label = isRobot ? 'Robô' : 'Usuário'
+  
 
   return (
     <button
@@ -49,7 +49,7 @@ export default function SenderToggle({ sender, onToggle }: SenderToggleProps) {
           <path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1" />
         </svg>
       )}
-      <span>{label}</span>
+      
     </button>
   )
 }
